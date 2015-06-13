@@ -4,7 +4,7 @@
   "description": "turf point-on-surface module",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node test/*.test.js",
     "doc": "dox -r < index.js | doxme --readme > README.md"
   },
   "repository": {
@@ -32,6 +32,8 @@
     "doxme": "^1.4.3"
   },
   "dependencies": {
+    "geojson-stream": "0.0.0",
+    "minimist": "^1.1.1",
     "turf-center": "^1.0.1",
     "turf-distance": "^1.0.0",
     "turf-explode": "^1.0.0",
