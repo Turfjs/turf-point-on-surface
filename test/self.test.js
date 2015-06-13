@@ -1,5 +1,5 @@
 var test = require('tape');
-var centroid = require('./');
+var centroid = require('../');
 var fs = require('fs');
 var inside = require('turf-inside');
 

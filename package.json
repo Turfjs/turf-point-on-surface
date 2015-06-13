@@ -4,7 +4,7 @@
   "description": "turf point-on-surface module",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node test/*.test.js",
     "doc": "dox -r < index.js | doxme --readme > README.md"
   },
   "repository": {
